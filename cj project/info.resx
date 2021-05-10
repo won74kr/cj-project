@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="각도, 각" xml:space="preserve">
+    <value>∠</value>
+  </data>
+  <data name="같지 않음" xml:space="preserve">
+    <value>≠</value>
+  </data>
+  <data name="곱하기, 곱셈" xml:space="preserve">
+    <value>×</value>
+  </data>
+  <data name="그리스 문자 베타" xml:space="preserve">
+    <value>β</value>
+  </data>
+  <data name="그리스 문자 쎄타" xml:space="preserve">
+    <value>θ</value>
+  </data>
+  <data name="그리스 문자 알파" xml:space="preserve">
+    <value>α</value>
+  </data>
+  <data name="그리스 문자 파이,3.14" xml:space="preserve">
+    <value>π</value>
+  </data>
+  <data name="나누기" xml:space="preserve">
+    <value>÷</value>
+  </data>
+  <data name="더하기 빼기 기호, 플마" xml:space="preserve">
+    <value>±</value>
+  </data>
+  <data name="델타" xml:space="preserve">
+    <value>Δ</value>
+  </data>
+  <data name="도" xml:space="preserve">
+    <value>°</value>
+  </data>
+  <data name="따라서, 점3개" xml:space="preserve">
+    <value>∴</value>
+  </data>
+  <data name="루트" xml:space="preserve">
+    <value>√</value>
+  </data>
+  <data name="무한대, 무한" xml:space="preserve">
+    <value>∞</value>
+  </data>
+  <data name="아래 알파" xml:space="preserve">
+    <value>ₐ</value>
+  </data>
+  <data name="아래0, 0" xml:space="preserve">
+    <value>₀</value>
+  </data>
+  <data name="아래1, 1" xml:space="preserve">
+    <value>₁</value>
+  </data>
+  <data name="아래2, 2" xml:space="preserve">
+    <value>₂</value>
+  </data>
+  <data name="아래3, 2" xml:space="preserve">
+    <value>₃</value>
+  </data>
+  <data name="아래4, 4" xml:space="preserve">
+    <value>₄</value>
+  </data>
+  <data name="아래5, 5" xml:space="preserve">
+    <value>₅</value>
+  </data>
+  <data name="아래6, 6" xml:space="preserve">
+    <value>₆</value>
+  </data>
+  <data name="아래7, 7" xml:space="preserve">
+    <value>₇</value>
+  </data>
+  <data name="아래8, 8" xml:space="preserve">
+    <value>₈</value>
+  </data>
+  <data name="아래9, 9" xml:space="preserve">
+    <value>₉</value>
+  </data>
+  <data name="아래등호" xml:space="preserve">
+    <value>₌</value>
+  </data>
+  <data name="아래마이너스" xml:space="preserve">
+    <value>₋</value>
+  </data>
+  <data name="아래오른쪽괄호" xml:space="preserve">
+    <value>₎</value>
+  </data>
+  <data name="아래왼쪽괄호" xml:space="preserve">
+    <value>₍</value>
+  </data>
+  <data name="아래플러스" xml:space="preserve">
+    <value>₊</value>
+  </data>
+  <data name="약, 거의같음" xml:space="preserve">
+    <value>≒</value>
+  </data>
+  <data name="위 베타, 지수 베타" xml:space="preserve">
+    <value>ᵇ</value>
+  </data>
+  <data name="위 알파, 지수 알파" xml:space="preserve">
+    <value>ᵃ</value>
+  </data>
+  <data name="위0, 지수 0, 0" xml:space="preserve">
+    <value>⁰</value>
+  </data>
+  <data name="위1, 지수 1, 1" xml:space="preserve">
+    <value>¹</value>
+  </data>
+  <data name="위2, 지수 2, 2" xml:space="preserve">
+    <value>²</value>
+  </data>
+  <data name="위3, 지수 3, 3" xml:space="preserve">
+    <value>³</value>
+  </data>
+  <data name="위4, 지수 4, 4" xml:space="preserve">
+    <value>⁴</value>
+  </data>
+  <data name="위5, 지수 5, 5" xml:space="preserve">
+    <value>⁵</value>
+  </data>
+  <data name="위6, 지수 6, 6" xml:space="preserve">
+    <value>⁶</value>
+  </data>
+  <data name="위7, 지수 7, 7" xml:space="preserve">
+    <value>⁷</value>
+  </data>
+  <data name="위8, 지수 8, 8" xml:space="preserve">
+    <value>⁸</value>
+  </data>
+  <data name="위9, 지수 9, 9" xml:space="preserve">
+    <value>⁹</value>
+  </data>
+  <data name="작거나 같음" xml:space="preserve">
+    <value>≤</value>
+  </data>
+  <data name="지수 등호" xml:space="preserve">
+    <value>⁼</value>
+  </data>
+  <data name="지수 마이너스" xml:space="preserve">
+    <value>⁻</value>
+  </data>
+  <data name="지수 오른쪽괄호" xml:space="preserve">
+    <value>⁾</value>
+  </data>
+  <data name="지수 왼쪽괄호" xml:space="preserve">
+    <value>⁽</value>
+  </data>
+  <data name="지수 플러스" xml:space="preserve">
+    <value>⁺</value>
+  </data>
+  <data name="크거나 같음" xml:space="preserve">
+    <value>≥</value>
+  </data>
+</root>
