@@ -29,6 +29,7 @@ namespace cj_project
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.getoutButton = new System.Windows.Forms.Button();
             this.suchButtom = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -42,6 +43,7 @@ namespace cj_project
             this.CopySymbolButton8 = new System.Windows.Forms.Button();
             this.CopySymbolButton9 = new System.Windows.Forms.Button();
             this.CopySymbolButton10 = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // getoutButton
@@ -93,6 +95,7 @@ namespace cj_project
             // 
             // CopySymbolButton3
             // 
+            this.CopySymbolButton3.AutoEllipsis = true;
             this.CopySymbolButton3.Location = new System.Drawing.Point(296, 93);
             this.CopySymbolButton3.Name = "CopySymbolButton3";
             this.CopySymbolButton3.Size = new System.Drawing.Size(100, 100);
@@ -210,8 +213,8 @@ namespace cj_project
         private System.Windows.Forms.Button CopySymbolButton7;
         private System.Windows.Forms.Button CopySymbolButton8;
         private System.Windows.Forms.Button CopySymbolButton9;
-        private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button CopySymbolButton10;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 
